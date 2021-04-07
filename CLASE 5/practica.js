@@ -20,7 +20,7 @@ function invertir(array1) {
 
 }
 
-console.log(invertir([1, 2, 3, 4,]))
+console.log(invertir([1, 2, 3, 4,]))//[4,3,2,1]
 console.log("------------------------------------------------");
 
 //EJERCICIO 2
@@ -36,7 +36,7 @@ function pares(arrayInicial) {
     return numerosPares
 }
 
-console.log(pares([1, 2, 3, 4]));
+console.log(pares([1, 2, 3, 4]));//[2,4]
 console.log("------------------------------------------------");
 
 //EJERCICIO 3 
@@ -84,8 +84,8 @@ function suma(n) {
        
 }
 
-console.log(suma([1,2,3,4]));
-console.log(suma([1,"2",3,4]));
+console.log(suma([1,2,3,4]));//10
+console.log(suma([1,"2",3,4]));//Error: array corrupto
 console.log("------------------------------------------------");
 
 //EJERCICIO 5 /PRIMER EJEMPLO
@@ -97,7 +97,7 @@ function paresInvertidos(nuevoArray1) {
     return z
 };
 
-console.log(paresInvertidos([1,2,3,4]));
+console.log(paresInvertidos([1,2,3,4]));//[4,3,2,1], [4,2]
 console.log("------------------------------------------------");
 
 
@@ -107,5 +107,5 @@ function frasesIrracionales(nuevoArray2,nuevoArray3) {
     return nuevoArray2.join(" , ") + nuevoArray3.join(" , ");
 }
 
-console.log(frasesIrracionales(["Hola","s","o","y"],[" una","funcion","muy","perfecta"]));
+console.log(frasesIrracionales(["Hola","s","o","y"],[" una","funcion","muy","perfecta"]));//Hola , s , o , y una , funcion , muy , perfecta
 console.log("------------------------------------------------");
